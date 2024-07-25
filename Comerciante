@@ -33,6 +33,7 @@ public class Comerciante extends Persona {
 			System.out.println("Ingreso registrado");
 		else
 			System.out.println("Salida registrada");
+		
 	}
 	
 
