@@ -15,22 +15,23 @@ public class Main {
 		Persona panadero = new Panadero("Panadero1", (short) 170, (short) 30, 1500.0);
 
 		
-		//llamar el metodo checar para cada trabajador y registar entrada
+		//Llamar el metodo checar para cada trabajador y registar entrada
 		persona1.checar();
 		comerciante.checar();
 		constructor.checar();
 		jardinero.checar();
 		soldado.checar();
 		panadero.checar();
+		System.out.println();
 		
 		//Implementacion especifica del metodo trabajar de la clase Padre en las clases Hijas
-		persona1.trabajar();
-		comerciante.trabajar();
-		constructor.trabajar();
-		jardinero.trabajar();
-		soldado.trabajar();
-		panadero.trabajar();
-		
+		System.out.println(persona1.trabajar());
+		System.out.println(comerciante.trabajar());
+		System.out.println(constructor.trabajar());
+		System.out.println(jardinero.trabajar());
+		System.out.println(soldado.trabajar());
+		System.out.println(panadero.trabajar());
+		System.out.println();
 		
 		//Implementacion especifica del metodo alimentarse de la clase Padre en las clases Hijas
 		persona1.alimentarse();
@@ -38,8 +39,8 @@ public class Main {
 		constructor.alimentarse();
 		jardinero.alimentarse();
 		soldado.alimentarse();
-		soldado.alimentarse();
-		
+		panadero.alimentarse();
+		System.out.println();
 		
 		//Implementacion especifica del metodo cobrar de la clase Padre en las clases Hijas
 		persona1.cobrar();
@@ -48,9 +49,9 @@ public class Main {
 		jardinero.cobrar();
 		soldado.cobrar();
 		panadero.cobrar();
+		System.out.println();
 		
-		
-		//llamar el metodo checar para cada trabajador y registrar salida
+		//Llamar el metodo checar para cada trabajador y registrar salida
 		persona1.checar();
 		comerciante.checar();
 		constructor.checar();
