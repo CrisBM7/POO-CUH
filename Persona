@@ -1,7 +1,6 @@
 package mx.com.cuh;
 
 public class Persona {
-
 	//Se inicializan los atributos de la clase
 	private String nombre = "";
 	private short altura = 0;
@@ -19,7 +18,7 @@ public class Persona {
 	}
 
 	
-	//Se defina los gety set para la clase Persona
+	//Se defina los get y set para la clase Persona
 	public String getNombre() {
 		nombre = "Sr." + nombre;
 		return nombre;
@@ -31,24 +30,24 @@ public class Persona {
 
 	public String trabajar() {
 		trabajando = !trabajando;
-		String trabajo = "Trabajando";
+		String trabajo = "---Trabajando---";
 		return trabajo;
 	}
 	
 	public void cobrar() {
-		System.out.println("Cobrando");
+		System.out.println("---Cobrando---");
 	}
 	
 	public void alimentarse() {
-		System.out.println("Hora de comida");
+		System.out.println("---Hora de comida---");
 	}
 	
 			
 	public void checar() {
 		if (!trabajando)
-			System.out.println("Ingreso registrado");
+			System.out.println("---Ingreso registrado---");
 		else
-			System.out.println("Salida registrada");
+			System.out.println("---Salida registrada---");
 	}
 	
 }
